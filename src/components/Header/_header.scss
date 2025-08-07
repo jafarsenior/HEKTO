@@ -1,4 +1,4 @@
-// Hekto Navbar SCSS
+
 // Variables
 $primary-purple: #7e33e0;
 $primary-pink: #fb2e86;
@@ -38,6 +38,11 @@ header {
         padding: 8px 0;
         font-size: 12px;
       }
+      @media (max-width: 660px) {
+          display: grid;
+          justify-content: center;
+          gap: 20px;
+        }
 
       .nav_contact {
         @include flex-center;
@@ -45,10 +50,7 @@ header {
 
         @media (max-width: 1024px) {
           gap: 20px;
-        }
-
-        @media (max-width: 768px) {
-          display: none;
+          justify-content: space-between;
         }
       }
 
@@ -71,18 +73,6 @@ header {
       .nav_location {
         @include flex-center;
         gap: 30px;
-
-        @media (max-width: 1024px) {
-          gap: 20px;
-        }
-
-        @media (max-width: 768px) {
-          gap: 15px;
-        }
-
-        @media (max-width: 480px) {
-          gap: 10px;
-        }
       }
 
       .location {
@@ -134,13 +124,7 @@ header {
       gap: 35px;
       flex-grow: 1;
 
-      @media (max-width: 1024px) {
-        gap: 25px;
-      }
-
-      @media (max-width: 768px) {
-        display: none;
-      }
+      
     }
 
     .nav_logo {
@@ -155,9 +139,6 @@ header {
         margin-right: 40px;
       }
 
-      @media (max-width: 768px) {
-        margin-right: 0;
-      }
     }
 
     .list_item {
@@ -207,13 +188,10 @@ header {
       overflow: hidden;
       width: 280px;
 
-      @media (max-width: 1024px) {
-        width: 220px;
-      }
+      @media (max-width: 470px) {
+               width: 180px;
 
-      @media (max-width: 768px) {
-        display: none;
-      }
+        }
 
       input {
         flex-grow: 1;
@@ -237,7 +215,7 @@ header {
       cursor: pointer;
       @include transition(background-color);
       @include flex-center;
-      justify-content: center;
+      justify-content: start;
 
       img {
         width: 18px;
@@ -252,89 +230,11 @@ header {
   }
 }
 
-// Mobile menu styles (for future enhancement)
-@media (max-width: 768px) {
-  .mobile-menu-toggle {
-    display: block;
-    background: none;
-    border: none;
-    color: $dark-blue;
-    cursor: pointer;
-    padding: 5px;
-
-    img {
-      width: 24px;
-      height: 24px;
-    }
-  }
-
-  .mobile-nav {
+@media screen and (max-width: 830px) {
+  .list_item{
     display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: $white;
-    border-top: 1px solid $border-gray;
-    padding: 20px;
-    z-index: 1000;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-
-    &.active {
-      display: block;
-    }
-
-    .mobile-search {
-      margin-bottom: 20px;
-
-      .nav_search {
-        display: flex;
-        width: 100%;
-      }
-    }
-
-    .mobile-menu {
-      list-style: none;
-
-      .mobile-item {
-        border-bottom: 1px solid #f1f1f1;
-
-        &:last-child {
-          border-bottom: none;
-        }
-      }
-
-      .mobile-link {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 15px 0;
-        color: $dark-blue;
-        text-decoration: none;
-        font-size: 16px;
-        @include transition(color);
-
-        &:hover,
-        &.active {
-          color: $primary-pink;
-        }
-
-        img {
-          width: 14px;
-          height: 14px;
-        }
-      }
-    }
   }
-}
-
-// Additional responsive improvements
-@media (max-width: 480px) {
-  .navbar {
-    .nav_logo img {
-      height: 28px;
-    }
-  }
+  
 }
 
 // Utility classes

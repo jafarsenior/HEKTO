@@ -1,0 +1,13 @@
+.footer_bg{
+    background-color: #EEEFFB;
+    padding: 94px 0 101px;
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        .foot_navigate{
+            display: grid;
+            gap: 21px;
+        }
+    }
+}
