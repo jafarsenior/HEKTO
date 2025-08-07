@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+.container{
+    max-width: 1177px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+@import "../Header/header.scss";
+@import "../../pages/Home//home"
+
+

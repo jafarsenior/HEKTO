@@ -1,0 +1,284 @@
+.carousel-container {
+          width: 100%;
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+          font-family: 'Arial', sans-serif;
+        }
+
+        .carousel-wrapper {
+          position: relative;
+          border-radius: 20px;
+          overflow: hidden;
+        }
+
+        .section-display {
+          width: 100%;
+          height: 500px;
+          position: relative;
+        }
+
+        .section-content {
+          width: 100%;
+          height: 100%;
+          padding: 40px;
+          display: flex;
+          align-items: center;
+          transition: all 0.5s ease;
+        }
+
+        .section-content.section-1 {
+          background: #F2F0FF;
+        }
+
+        .section-content.section-2 {
+          background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .section-content.section-3 {
+          background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+
+        .section-content.section-4 {
+          background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+        }
+
+        .section-content.section-5 {
+          background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+        }
+
+        .content-wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          gap: 40px;
+        }
+
+        .text-content {
+          flex: 1;
+          color: white;
+          animation: fadeInLeft 0.6s ease-out;
+        }
+
+        .section-title {
+          font-size: 3rem;
+          font-weight: bold;
+          margin-bottom: 15px;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .section-subtitle {
+          font-size: 1.5rem;
+          margin-bottom: 20px;
+          opacity: 0.9;
+        }
+
+        .section-text {
+          font-size: 1.1rem;
+          line-height: 1.6;
+          margin-bottom: 30px;
+          opacity: 0.8;
+        }
+
+        .section-btn {
+          background: rgba(255, 255, 255, 0.2);
+          color: white;
+          border: 2px solid white;
+          padding: 12px 25px;
+          border-radius: 25px;
+          font-size: 1rem;
+          font-weight: bold;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          backdrop-filter: blur(10px);
+        }
+
+        .section-btn:hover {
+          background: white;
+          color: #333;
+          transform: translateY(-2px);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-content {
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          animation: fadeInRight 0.6s ease-out;
+        }
+
+        .section-image {
+          width: 400px;
+          height: 250px;
+          object-fit: cover;
+          border-radius: 15px;
+          box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+          transition: transform 0.3s ease;
+        }
+
+        .section-image:hover {
+          transform: scale(1.05);
+        }
+
+        /* Navigation Arrows */
+        .nav-arrow {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          background: rgba(255, 255, 255, 0.2);
+          color: white;
+          border: none;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          backdrop-filter: blur(10px);
+          z-index: 10;
+        }
+
+        .nav-arrow:hover {
+          background: rgba(255, 255, 255, 0.3);
+          transform: translateY(-50%) scale(1.1);
+        }
+
+        .nav-prev {
+          left: 20px;
+        }
+
+        .nav-next {
+          right: 20px;
+        }
+
+        /* Dots Navigation */
+        .dots-container {
+          position: absolute;
+          bottom: 20px;
+          left: 50%;
+          transform: translateX(-50%);
+          display: flex;
+          gap: 12px;
+          z-index: 10;
+        }
+
+        .dot {
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          border: 2px solid white;
+          background: transparent;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+
+        .dot.active {
+          background: white;
+          transform: scale(1.3);
+        }
+
+        .dot:hover {
+          background: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Section Counter */
+        .section-counter {
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          background: rgba(255, 255, 255, 0.2);
+          color: white;
+          padding: 8px 15px;
+          border-radius: 20px;
+          font-weight: bold;
+          backdrop-filter: blur(10px);
+          z-index: 10;
+        }
+
+        /* Animations */
+        @keyframes fadeInLeft {
+          from {
+            opacity: 0;
+            transform: translateX(-30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+
+        @keyframes fadeInRight {
+          from {
+            opacity: 0;
+            transform: translateX(30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+          .section-display {
+            height: 400px;
+          }
+
+          .section-content {
+            padding: 20px;
+          }
+
+          .content-wrapper {
+            flex-direction: column;
+            gap: 20px;
+            text-align: center;
+          }
+
+          .section-title {
+            font-size: 2rem;
+          }
+
+          .section-subtitle {
+            font-size: 1.2rem;
+          }
+
+          .section-image {
+            width: 280px;
+            height: 180px;
+          }
+
+          .nav-arrow {
+            width: 40px;
+            height: 40px;
+          }
+
+          .nav-prev {
+            left: 10px;
+          }
+
+          .nav-next {
+            right: 10px;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .section-display {
+            height: 350px;
+          }
+
+          .section-content {
+            padding: 15px;
+          }
+
+          .section-title {
+            font-size: 1.5rem;
+          }
+
+          .section-image {
+            width: 240px;
+            height: 150px;
+          }
+        }
