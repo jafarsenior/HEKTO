@@ -6,6 +6,7 @@ import Blog from "../pages/Blog/blog";
 import Product from "../pages/Products/product";
 import Shop from "../pages/Shop/shop";
 import Contact from "../pages/Contact/contact";
+import NotFound from "../pages/NotFound/notFound";
 
 const router = () => {
   return (
@@ -15,8 +16,9 @@ const router = () => {
         <Route path="/page" element={<Page />} />
         <Route path="/product" element={<Product />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/shop" element={<Shop />} />
+        <Route path="/shops" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />}/>
       </Routes>
     </>
   );

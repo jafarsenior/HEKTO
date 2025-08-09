@@ -1,25 +1,86 @@
-.teams{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 83px;
+.home_card {
+  margin: 40px 0;
+  h1 {
+    text-align: center;
+    color: #1a0b5b;
+    padding-bottom: 48px;
+    font-size: 45px;
+  }
+  .box {
+    display: grid;
+    width: 279px;
+    height: auto;
+    background-color: #f2f2fe;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 5px ;
+    .image {
+      padding: 30px;
+      text-align: center;
+      height: 300px;
+    }
+    .texts {
+      background-color: #f2f2fe;
+      transition: 0.9s;
+      padding: 10px;
+      h3 {
+        color: #fb2e86;
+        text-align: center;
+        font-size: 23px;
+      }
+      .txtimg {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 52px;
+        height: auto;
+        img {
+          width: 100%;
+        }
+      }
+      h4 {
+        text-align: center;
+        color: #1a0b5b;
+        font-size: 19px;
+      }
+      .poz {
+        position: relative;
+        top: -480px;
+        right: -30px;
+        display: none;
+        transition: display 1s;
+      }
+      &:hover {
+        background-color: #5344c7;
+        .poz {
+          display: grid;
+        }
+      }
+    }
+  }
 }
 
-
-.team_text h1{
-    font-family: "roboto", sans-serif;
-    font-size: 20px;
-    margin-bottom: 12px;
-}
-.team_text p{
-    font-family: "roboto", sans-serif;
-    font-size: 16px;
-    margin-bottom: 32px;
-}
-.btn{
-    padding: 15px 34px;
+.teams {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 83px;
 }
 
+.team_text h1 {
+  font-family: "roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.team_text p {
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+.btn {
+  padding: 15px 34px;
+}
 
 $primary-color: #1e40af;
 $secondary-color: #f472b6;
@@ -114,9 +175,8 @@ $light-gray: #f3f4f6;
 }
 
 .executive-list {
- gap: 16px;
- display: grid;
-
+  gap: 16px;
+  display: grid;
 
   .executive-item {
     display: flex;

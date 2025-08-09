@@ -1,0 +1,48 @@
+.not_text {
+  background-color: #f6f5ff;
+  padding: 96px 0 126px;
+  h1 {
+    font-family: Josefin Sans;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 9px;
+  }
+  p {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    b {
+      color: #fb2e86;
+    }
+  }
+}
+.not_img {
+  margin: 0 auto;
+  max-width: 913px;
+  height: auto;
+  padding: 28px 0 124px;
+  img {
+    width: 100%;
+  }
+  .not_btns {
+    width: 165px;
+    margin: 0 auto;
+    .not_btn {
+      padding: 9px 30px;
+      font-family: Josefin Sans;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 25.6px;
+      letter-spacing: 0%;
+      color: #f6f5ff;
+      background-color: #fb2e86;
+      border: none;
+      border-radius: 4px;
+    }
+  }
+}

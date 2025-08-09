@@ -241,6 +241,69 @@ header {
   gap: 21px;
 }
 
+.home_card {
+  margin: 40px 0;
+}
+.home_card h1 {
+  text-align: center;
+  color: #1a0b5b;
+  padding-bottom: 48px;
+  font-size: 45px;
+}
+.home_card .box {
+  display: grid;
+  width: 279px;
+  height: auto;
+  background-color: #f2f2fe;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 5px;
+}
+.home_card .box .image {
+  padding: 30px;
+  text-align: center;
+  height: 300px;
+}
+.home_card .box .texts {
+  background-color: #f2f2fe;
+  transition: 0.9s;
+  padding: 10px;
+}
+.home_card .box .texts h3 {
+  color: #fb2e86;
+  text-align: center;
+  font-size: 23px;
+}
+.home_card .box .texts .txtimg {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 52px;
+  height: auto;
+}
+.home_card .box .texts .txtimg img {
+  width: 100%;
+}
+.home_card .box .texts h4 {
+  text-align: center;
+  color: #1a0b5b;
+  font-size: 19px;
+}
+.home_card .box .texts .poz {
+  position: relative;
+  top: -480px;
+  right: -30px;
+  display: none;
+  transition: display 1s;
+}
+.home_card .box .texts:hover {
+  background-color: #5344c7;
+}
+.home_card .box .texts:hover .poz {
+  display: grid;
+}
+
 .teams {
   display: flex;
   justify-content: space-between;
@@ -364,4 +427,100 @@ header {
 }
 .executive-list .executive-item .price {
   font-size: 14px;
+}
+
+.img_carousel h1 {
+  font-size: 36px;
+  margin: 30px 0;
+  text-align: center;
+}
+.img_carousel .page_carous {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card_carousel h1 {
+  font-size: 54px;
+  font-weight: 700;
+}
+.card_carousel .card_group {
+  margin: 20px 5px;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+.card_carousel .card_group_img {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  padding: 20px 40px;
+  background-color: rgb(206, 206, 206);
+}
+.card_carousel .card_group_text {
+  padding: 10px 5px;
+  display: grid;
+  gap: 10px;
+}
+.card_carousel .card_group_text h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.card_carousel .card_group_text p {
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+}
+.card_carousel .card_group_text .price {
+  font-size: 14px;
+  font-weight: 400;
+  color: #151875;
+}
+
+.not_text {
+  background-color: #f6f5ff;
+  padding: 96px 0 126px;
+}
+.not_text h1 {
+  font-family: Josefin Sans;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 9px;
+}
+.not_text p {
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.not_text p b {
+  color: #fb2e86;
+}
+
+.not_img {
+  margin: 0 auto;
+  max-width: 913px;
+  height: auto;
+  padding: 28px 0 124px;
+}
+.not_img img {
+  width: 100%;
+}
+.not_img .not_btns {
+  width: 165px;
+  margin: 0 auto;
+}
+.not_img .not_btns .not_btn {
+  padding: 9px 30px;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  letter-spacing: 0%;
+  color: #f6f5ff;
+  background-color: #fb2e86;
+  border: none;
+  border-radius: 4px;
 }/*# sourceMappingURL=style.css.map */
