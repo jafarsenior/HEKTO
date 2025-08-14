@@ -7,6 +7,8 @@ import Kreslo3 from "../../assets/images/kreslo3.png";
 import Kreslo4 from "../../assets/images/kreslo4.png";
 import Canterimg from "../../assets/images/canterimg.svg";
 import Img from "../../assets/images/kreclo.png";
+import Creslo from "../../assets/images/creslo.png"
+import Lampa from "../../assets/images/lampa.png"
 import chair1 from "../../assets/images/image 1171.png";
 import chair2 from "../../assets/images/image 1170.png";
 import chair3 from "../../assets/images/image 31.png";
@@ -83,6 +85,26 @@ const home = () => {
   return (
     <div>
       <Header />
+      <section className="trends">
+        <div className="container">
+          <div className="pos_lamp">
+          <img src={Lampa} alt="" />
+        </div>
+          <div className="trend">
+            <div className="trend_text">
+              <h3>Best Furniture For Your Castle....</h3>
+              <h1>New Furniture Collection <br />
+                  Trends in 2020</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing <br />
+                 in phasellus non in justo.</p>
+              <button className="btn">Shop Now</button>
+            </div>
+            <div className="trend_img">
+              <img src={Creslo} alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="home_card">
         <div className="container">
           <h1>Featured Products</h1>

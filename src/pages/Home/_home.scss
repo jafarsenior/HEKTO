@@ -1,3 +1,63 @@
+.trends {
+  background-color: #f2f0ff;
+  padding: 39px 0 36px;
+  .pos_lamp{
+    position: absolute;
+    left: -130px;
+    top: 134px;
+    @media screen and (max-width:1440px) {
+      &{
+        display: none;
+      }
+    }
+  }
+  .trend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .trend_text {
+      h3 {
+        font-family: Lato;
+        font-weight: 700;
+        font-size: 16px;
+        color: #fb2e86;
+      }
+      h1 {
+        font-weight: 700;
+        font-size: 43px;
+        margin: 12px 0;
+      }
+      p {
+        color: #8a8fb9;
+        font-family: Lato;
+        font-weight: 700;
+        font-size: 16px;
+      }
+      .btn{
+        background-color: #fb2e86;
+        border: none;
+        color: white;
+        margin-top: 27px;
+      }
+    }
+    .trend_img {
+      max-width: 606px;
+      height: auto;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    @media screen and (max-width:1168px) {
+      &{
+        justify-content: center;
+        gap: 40px;
+      }
+    }
+  }
+}
+
 .home_card {
   margin: 40px 0;
   h1 {
@@ -13,7 +73,7 @@
     background-color: #f2f2fe;
     border-radius: 4px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 20px 5px ;
+    margin: 20px 5px;
     .image {
       padding: 30px;
       text-align: center;
