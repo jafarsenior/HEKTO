@@ -1,0 +1,127 @@
+.shop_text_navigate {
+  background-color: #f6f5ff;
+  padding: 96px 0 126px;
+  h1 {
+    font-family: Josefin Sans;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 9px;
+  }
+  p {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    b {
+      color: #fb2e86;
+    }
+  }
+}
+.shop_filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 124px 0 144px;
+  .filter_text {
+    h2 {
+      color: #151875;
+      font-family: Josefin Sans;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+    small {
+      color: #8a8fb9;
+      font-family: Lato;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+  }
+  .filter_group {
+    .filter_inp {
+      label {
+        color: #3f509e;
+        font-family: Lato;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin-right: 8px;
+      }
+      input {
+        margin-right: 27px;
+        padding: 5px 11px;
+        width: 130px;
+      }
+    }
+  }
+}
+.shop_cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 53px;
+  .card {
+    max-width: 270px;
+    height: auto;
+    width: 100%;
+    .card_img {
+      padding: 50px 30px;
+      background-color: #f6f7fb;
+      height: 280px;
+    }
+    .card_text {
+      text-align: center;
+      h2 {
+        margin-top: 8px;
+        color: #151875;
+        font-family: Josefin Sans;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+      }
+      img {
+        margin: 8px 0 15px;
+      }
+      .price {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        font-family: Josefin Sans;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #151875;
+        del{
+          color: #FB2E86;
+        }
+      }
+    }
+  }
+  @media screen and (max-width:615px) {
+    &{
+      justify-content: center;
+    }
+  }
+}
+.brands{
+  text-align: center;
+  margin: 83px 0;
+  max-width: 904px;
+  height: auto;
+  margin: 0 auto;
+  img{
+    width: 100%;
+  }
+}
