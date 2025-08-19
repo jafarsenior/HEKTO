@@ -1,12 +1,12 @@
 .trends {
   background-color: #f2f0ff;
   padding: 39px 0 36px;
-  .pos_lamp{
+  .pos_lamp {
     position: absolute;
     left: -130px;
     top: 134px;
-    @media screen and (max-width:1440px) {
-      &{
+    @media screen and (max-width: 1440px) {
+      & {
         display: none;
       }
     }
@@ -34,7 +34,7 @@
         font-weight: 700;
         font-size: 16px;
       }
-      .btn{
+      .btn {
         background-color: #fb2e86;
         border: none;
         color: white;
@@ -49,8 +49,8 @@
         height: auto;
       }
     }
-    @media screen and (max-width:1168px) {
-      &{
+    @media screen and (max-width: 1168px) {
+      & {
         justify-content: center;
         gap: 40px;
       }
@@ -117,6 +117,46 @@
           display: grid;
         }
       }
+    }
+  }
+}
+.cards_section {
+  .card_products {
+    text-align: center;
+    h1 {
+      color: #151875;
+      font-family: Josefin Sans;
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      margin-bottom: 19px;
+    }
+    .category_product {
+      display: flex;
+      justify-content: center;
+      gap: 58px;
+      button {
+        border: none;
+        background-color: transparent;
+        font-family: Lato;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #151875;
+        &:hover {
+          color: #fb2e86;
+        }
+      }
+    }
+    .products {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 116px 37px;
+      margin: 58px 0;
     }
   }
 }

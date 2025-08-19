@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Comfort Handy Craft",
+            "price": 42.00,
+            "oldprice": 65.00,
+            "img": "https://ik.imagekit.io/qeqp0gj9z/image%201166.png?updatedAt=1755347691693",
+            "category": "New Arrival"
+        },
+        {
+            "id": 2,
+            "name": "Comfort Handy Craft",
+            "price": 42.00,
+            "oldprice": 65.00,
+            "img": "https://ik.imagekit.io/qeqp0gj9z/image%2015.png?updatedAt=1755347710971",
+            "category": "New Arrival"
+        },
+        {
+            "id": 3,
+            "name": "Comfort Handy Craft",
+            "price": 42.00,
+            "oldprice": 65.00,
+            "img": "https://ik.imagekit.io/qeqp0gj9z/image%201168.png?updatedAt=1755347726309",
+            "category": "Featured"
+        },
+        {
+            "id": 4,
+            "name": "Comfort Handy Craft",
+            "price": 42.00,
+            "oldprice": 65.00,
+            "img": "https://ik.imagekit.io/qeqp0gj9z/image%201166.png?updatedAt=1755347691693",
+            "category": "Featured"
+        },
+        {
+            "id": 5,
+            "name": "Comfort Handy Craft",
+            "price": 42.00,
+            "oldprice": 65.00,
+            "img": "https://ik.imagekit.io/qeqp0gj9z/image%2015.png?updatedAt=1755347710971",
+            "category": "Featured"
+        },
+        {
+            "id": 6,
+            "name": "Comfort Handy Craft",
+            "price": 42.00,
+            "oldprice": 65.00,
+            "img": "https://ik.imagekit.io/qeqp0gj9z/image%201168.png?updatedAt=1755347726309",
+            "category": "Special Offer"
+        }
+    ]
+}
