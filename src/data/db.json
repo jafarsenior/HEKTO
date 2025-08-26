@@ -1,52 +1,86 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Comfort Handy Craft",
-            "price": 42.00,
-            "oldprice": 65.00,
-            "img": "https://ik.imagekit.io/qeqp0gj9z/image%201166.png?updatedAt=1755347691693",
-            "category": "New Arrival"
-        },
-        {
-            "id": 2,
-            "name": "Comfort Handy Craft",
-            "price": 42.00,
-            "oldprice": 65.00,
-            "img": "https://ik.imagekit.io/qeqp0gj9z/image%2015.png?updatedAt=1755347710971",
-            "category": "New Arrival"
-        },
-        {
-            "id": 3,
-            "name": "Comfort Handy Craft",
-            "price": 42.00,
-            "oldprice": 65.00,
-            "img": "https://ik.imagekit.io/qeqp0gj9z/image%201168.png?updatedAt=1755347726309",
-            "category": "Featured"
-        },
-        {
-            "id": 4,
-            "name": "Comfort Handy Craft",
-            "price": 42.00,
-            "oldprice": 65.00,
-            "img": "https://ik.imagekit.io/qeqp0gj9z/image%201166.png?updatedAt=1755347691693",
-            "category": "Featured"
-        },
-        {
-            "id": 5,
-            "name": "Comfort Handy Craft",
-            "price": 42.00,
-            "oldprice": 65.00,
-            "img": "https://ik.imagekit.io/qeqp0gj9z/image%2015.png?updatedAt=1755347710971",
-            "category": "Featured"
-        },
-        {
-            "id": 6,
-            "name": "Comfort Handy Craft",
-            "price": 42.00,
-            "oldprice": 65.00,
-            "img": "https://ik.imagekit.io/qeqp0gj9z/image%201168.png?updatedAt=1755347726309",
-            "category": "Special Offer"
-        }
-    ]
+  "products": [
+    {
+      "id": "1",
+      "name": "Comfort Handy Craft",
+      "price": 42,
+      "oldprice": 65,
+      "img": "https://ik.imagekit.io/qeqp0gj9z/image%201166.png?updatedAt=1755347691693",
+      "category": "New Arrival"
+    },
+    {
+      "id": "2",
+      "name": "Comfort Handy Craft",
+      "price": 42,
+      "oldprice": 65,
+      "img": "https://olcha.uz/image/700x700/products/2020-08-07/ofisnoe-kreslo-mebel-house-1006-black-15074-0.jpeg",
+      "category": "New Arrival"
+    },
+    {
+      "id": "3",
+      "name": "Comfort Handy Craft",
+      "price": 42,
+      "oldprice": 65,
+      "img": "https://ik.imagekit.io/qeqp0gj9z/image%201168.png?updatedAt=1755347726309",
+      "category": "Featured"
+    },
+    {
+      "id": "4",
+      "name": "Comfort Handy Craft",
+      "price": 42,
+      "oldprice": 65,
+      "img": "https://ik.imagekit.io/qeqp0gj9z/image%201166.png?updatedAt=1755347691693",
+      "category": "Featured"
+    },
+    {
+      "id": "5",
+      "name": "Comfort Handy Craft",
+      "price": 42,
+      "oldprice": 65,
+      "img": "https://ik.imagekit.io/qeqp0gj9z/image%2015.png?updatedAt=1755347710971",
+      "category": "Featured"
+    },
+    {
+      "id": "6",
+      "name": "Comfort Handy Craft",
+      "price": 42,
+      "oldprice": 65,
+      "img": "https://ik.imagekit.io/qeqp0gj9z/image%201168.png?updatedAt=1755347726309",
+      "category": "Special Offer"
+    },
+     {
+      "id": "7",
+      "name": "Cantilever Chair Model A",
+      "price": 55,
+      "oldprice": 80,
+      "img": "https://age.uz/upload/webp/resize_cache/80c/400_400_1/aera52om5g72dan3f4o9st8wrm6udbis.webp",
+      "category": "Modern"
+    },
+    {
+      "id": "8",
+      "name": "Cantilever Chair Model B",
+      "price": 60,
+      "oldprice": 90,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/8/88/Grand_Taile.jpg",
+      "category": "Modern"
+    },
+    {
+      "id": "9",
+      "name": "Cantilever Chair Model C",
+      "price": 58,
+      "oldprice": 85,
+      "img": "https://modernus.ru/assets/galleries/1195/designer-armchairs-hirundo-1.jpg",
+      "category": "Modern"
+    },
+    {
+      "id": "9",
+      "name": "Cantilever Chair Model C",
+      "price": 58,
+      "oldprice": 85,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/8/88/Grand_Taile.jpg",
+      "category": "Modern"
+    }
+  ],
+  "fish": [],
+  "shopping": []
 }

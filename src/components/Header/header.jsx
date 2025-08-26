@@ -42,11 +42,13 @@ const header = () => {
                     Login
                     <img src={User} alt="" />
                   </p>
-                  <p className="location">
-                    Wishlist
-                    <img src={Heart} alt="" />
-                  </p>
-                  <img src={Shop} alt="" />
+                  <NavLink className="location" to={"/wishlist"}>
+                      Wishlist <img src={Heart} alt="" />
+                    </NavLink>
+                    <NavLink className="location" to={"/shoplist"}>
+                       <img src={Shop} alt="" />
+                    </NavLink>
+                 
                 </div>
                 </div>
               </div>

@@ -84,7 +84,7 @@ const executiveSeats = [
 
 const home = () => {
   const [shopProducts, setShopProducts] = useState([]);
-  const [activeCategory, setActiveCategory] = useState("");
+  const [activeCategory, setActiveCategory] = useState("All");
 
   useEffect(() => {
     fetch("http://localhost:3000/products")

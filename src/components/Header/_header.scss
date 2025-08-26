@@ -57,6 +57,7 @@ header {
       .lokation {
         @include flex-center;
         gap: 8px;
+        color: white;
         cursor: pointer;
         @include transition(opacity);
 
@@ -78,6 +79,8 @@ header {
       .location {
         @include flex-center;
         gap: 8px;
+        color: white;
+        text-decoration: none;
         cursor: pointer;
         @include transition(opacity);
 

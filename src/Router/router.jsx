@@ -6,6 +6,8 @@ import Blog from "../pages/Blog/blog";
 import Product from "../pages/Products/product";
 import Shop from "../pages/Shop/shop";
 import Contact from "../pages/Contact/contact";
+import WishList from "../pages/Wishlist/wishlist"
+import ShopList from "../pages/Shoplist/shoplist"
 import NotFound from "../pages/NotFound/notFound";
 
 const router = () => {
@@ -18,6 +20,8 @@ const router = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/shops" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/wishlist" element={<WishList/>}/>
+        <Route path="/shoplist" element={<ShopList/>}/>
         <Route path="*" element={<NotFound />}/>
       </Routes>
     </>
